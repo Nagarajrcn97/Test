@@ -1,0 +1,20 @@
+$deep_blue: #1D8CA0;
+#main-nav{
+  background: $deep_blue;
+  ul{
+    width:100%;
+  }
+  li{
+    float: left;
+    padding: 14px;
+    display: block;
+  }
+  a{
+      text-decoration: none;
+  }
+}
+#main-nav ul::after{
+  content: "";
+  display:block;
+  clear: both;
+}
